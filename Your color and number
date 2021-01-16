@@ -1,0 +1,6 @@
+birth_num = int(input('生年月日を入力して下さい'))%9
+print('あなたのラッキーナンバーは',birth_num,'です')
+
+color = ['red','pink','blue','yellow','green','gold','black','white','orange','brown']
+idx = birth_num
+print('ラッキーカラーは',color[idx],'です')
