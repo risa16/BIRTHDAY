@@ -1,0 +1,15 @@
+import datetime
+
+# 今日の日付
+today_date = (datetime.date.today())
+
+# ついでに今日の日付時刻
+datetime.datetime.today()
+
+# 誕生日
+birth_date = datetime.date(1994,3,16)
+
+# .daysつけないと00:00:00と時刻まで出てしまう
+mylife = today_date - birth_date
+print('生まれてから',mylife.days,'日目です') 
+
